@@ -28,7 +28,7 @@ import (
 
 	"go.uber.org/zap"
 	"golang.org/x/time/rate"
-	gnaming "google.golang.org/grpc/naming"
+	gnaming "github.com/dashpole/deprecated-grpc-naming"
 )
 
 // allow maximum 1 retry per second

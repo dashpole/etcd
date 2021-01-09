@@ -25,7 +25,7 @@ import (
 	"go.etcd.io/etcd/pkg/v3/testutil"
 	"go.etcd.io/etcd/tests/v3/integration"
 
-	"google.golang.org/grpc/naming"
+	naming "github.com/dashpole/deprecated-grpc-naming"
 )
 
 func TestGRPCResolver(t *testing.T) {

@@ -21,7 +21,7 @@
 //		etcdnaming "go.etcd.io/etcd/client/v3/naming"
 //
 //		"google.golang.org/grpc"
-//		"google.golang.org/grpc/naming"
+//		naming "github.com/dashpole/deprecated-grpc-naming"
 //	)
 //
 // First, register new endpoint addresses for a service:

@@ -21,8 +21,8 @@ import (
 
 	etcd "go.etcd.io/etcd/client/v3"
 
+	naming "github.com/dashpole/deprecated-grpc-naming"
 	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/naming"
 	"google.golang.org/grpc/status"
 )
 
